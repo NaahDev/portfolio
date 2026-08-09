@@ -1,0 +1,50 @@
+{ 
+    "menu": {
+        "home": "Home",
+        "about": "About Me",
+        "skills": "Skills",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+
+    "hero": {
+        "subtitle": "Computer Science Student",
+        "name": "Anna Clara Moraes",
+        "description": "Passionate about software development, artificial intelligence, and CyberSecurity."
+    },
+
+    "about": {
+        "title": "About Me",
+        "text": "Hi! My name is Anna Clara, and I'm a fourth-semester Computer Science student at UNINOVE.<br><br>My goal is to secure my first opportunity in the technology field, where I can continue learning while contributing to the development of meaningful solutions. I enjoy turning problems into real-world solutions through programming, and I see every project as an opportunity to learn something new.<br><br> I'm currently studying and developing projects to continuously improve my technical skills and build functional, intuitive, and well-structured applications. I believe that practice is the best way to learn, which is why I'm constantly starting new projects and exploring new technologies to improve them.<br><br> In this portfolio, you'll find some of the projects I've developed throughout my journey. Each one represents a challenge I've overcome, new knowledge I've gained, and an important step in my growth as a developer.<br>Feel free to explore them and learn more about my work."
+    },
+
+    "skills": {
+        "title": "Skills",
+        "ingles": "English",
+        "espanhol": "Spanish"
+    },
+
+    "projects": {
+        "title": "Projects",
+        "subtitle": "Text Reader",
+        "text": "OCR system developed with Python and Pillow.<br>Allows users to upload images and PDF files to extract text."
+    },
+
+    "projects2": {
+        "subtitle": "Website Portfolio",
+        "text": "Personal website developed with HTML, CSS, and JavaScript.<br>Featuring a modern design inspired by technology and my personal interests."
+    },
+
+    "projects3": {
+        "subtitle": "Sistema de Inventório",
+        "text": "Sistema CRUD desenvolvido com pythpo.<br> Allows users to create, edit, delete, and manage products."
+    },
+
+    "contact": {
+        "title": "Contato",
+        "text": "Email - <a class='contato' href='mailto:annaclaramo01@gmail.com' target='_blank'>annaclaramo01@gmail.com</a>",
+        "text1": "LinkedIn - <a class='contato' href='https://www.linkedin.com/in/annaxxt/' target='_blank'>https://www.linkedin.com/in/annaxxt/</a>",
+        "text2": "GitHub - <a class='contato' href='https://github.com/Annaxxt' target='_blank'>https://github.com/Annaxxt</a>"
+    }
+    
+}

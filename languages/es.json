@@ -1,0 +1,50 @@
+{ 
+    "menu": {
+        "home": "Inicio",
+        "about": "Sobre mí",
+        "skills": "Habilidades",
+        "projects": "Proyectos",
+        "contact": "Contacto"
+    },
+
+    "hero": {
+        "subtitle": "Estudiante de Ciencias de la Computación",
+        "name": "Anna Clara Moraes",
+        "description": "Apasionada por el desarrollo de software, la inteligencia artificial y la ciberseguridad."
+    },
+
+    "about": {
+        "title": "Sobre mí",
+        "text": "¡Hola! Me llamo Anna Clara y soy estudiante de cuarto semestre de Ciencias de la Computación en UNINOVE.<br><br>Mi objetivo es conseguir mi primera oportunidad en el área de tecnología, donde pueda seguir aprendiendo y contribuir al desarrollo de soluciones significativas. Me gusta transformar problemas en soluciones reales a través de la programación y veo cada proyecto como una oportunidad para aprender algo nuevo.<br><br> Actualmente estudio y desarrollo proyectos para mejorar continuamente mis habilidades técnicas y crear aplicaciones funcionales, intuitivas y bien estructuradas. Creo que la práctica es la mejor forma de aprender, por eso estoy constantemente iniciando nuevos proyectos y explorando nuevas tecnologías para mejorarlos.<br><br> En este portafolio encontrarás algunos de los proyectos que he desarrollado a lo largo de mi trayectoria. Cada uno representa un desafío superado, nuevos conocimientos adquiridos y un paso importante en mi crecimiento como desarrolladora.<br>Siéntete libre de explorarlos y conocer un poco más sobre mi trabajo."
+    },
+
+    "skills": {
+        "title": "Habilidades",
+        "ingles": "Inglés",
+        "espanhol": "Español"
+    },
+
+    "projects": {
+        "title": "Proyectos",
+        "subtitle": "Lector de Textos",
+        "text": "Sistema OCR desarrollado con Python y Pillow.<br>Permite subir imágenes y archivos PDF para extraer texto."
+    },
+
+    "projects2": {
+        "subtitle": "Sitio Web de Portafolio",
+        "text": "Sitio web personal desarrollado con HTML, CSS y JavaScript.<br>Con un diseño moderno inspirado en la tecnología y en mis intereses personales."
+    },
+
+    "projects3": {
+        "subtitle": "Sistema de Inventario",
+        "text": "Sistema CRUD desarrollado con Python y MySQL.<br>Permite crear, editar, eliminar y administrar productos."
+    },
+
+    "contact": {
+        "title": "Contactos",
+        "text": "Correo electrónico - <a class='contato' href='mailto:annaclaramo01@gmail.com' target='_blank'>annaclaramo01@gmail.com</a>",
+        "text1": "LinkedIn - <a class='contato' href='https://www.linkedin.com/in/annaxxt/' target='_blank'>https://www.linkedin.com/in/annaxxt/</a>",
+        "text2": "GitHub - <a class='contato' href='https://github.com/Annaxxt' target='_blank'>https://github.com/Annaxxt</a>"
+    }
+    
+}

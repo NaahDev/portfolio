@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,31 +15,40 @@
     <header>
 
         <nav>
-            <h2 class="logo">Portfolio</h2>
-
             <button class="menu-toggle">
                 <i class="fa-solid fa-bars"></i>
             </button>
 
+            <select class="menu" id="language">
+                <option value="pt">PT</option>
+                <option value="en">EN</option>
+                <option value="es">ES</option>
+            </select>
+
             <ul>
-                <li><a href="#about">About me</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home" data-i18n="menu.home">Início</a></li>
+                <li><a href="#about" data-i18n="menu.about">Sobre mim</a></li>
+                <li><a href="#skills" data-i18n="menu.skills">Habilidades</a></li>
+                <li><a href="#projects" data-i18n="menu.projects">Projetos</a></li>
+                <li><a href="#contact" data-i18n="menu.contact">Contatos</a></li>
             </ul>
         </nav>
 
-        <section class="hero">
+        <section id="home" class="hero">
+
+            <div class="hero-image">
+                <img src="images/hd.jpeg">
+            </div>
+
 
             <div class="hero-text">
+                <h3 data-i18n="hero.subtitle">Estudante de Ciência da Computação</h3>
 
-                <h1>Anna Clara</h1>
+                <h1 data-i18n="hero.name">Anna Clara Moraes</h1>
 
-                <h3>Computer Science Student</h3>
-
-                <p>
+                <p data-i18n="hero.description">
                     Apaixonada por desenvolvimento de software,
-                    inteligência artificial e CiberSecurity.
+                    inteligência artificial e Cibersegurança.
                 </p>
 
                 <div class="socials">
@@ -52,16 +61,12 @@
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
 
-                    <a href="images/Currículo.pdf" target="_blank">
-                        <i class="fa-solid fa-envelope"></i>
+                    <a href="images/Curriculo_sp.pdf" target="_blank">
+                        <i class="fa-solid fa-file"></i>
                     </a>
 
                 </div>
 
-            </div>
-
-            <div class="hero-image">
-                <img src="images/hd.png">
             </div>
 
         </section>
@@ -71,15 +76,21 @@
 
     <section id="about" class="section about">
 
-        <h2>About Me</h2>
+        <h2 data-i18n="about.title">Sobre mim</h2>
 
         <div class="glass-card">
-            <p>
-            Olá, meu nome é Anna. <br>
-            Sou estudante do 4º período de Ciência da Computação na UNINOVE. <br>
-            Sou apaixonada em desenvolvimento de software, desenvolvimento web, banco de dados e cibersecurity. <br>
-            Gosto de aprender por meio de projetos práticos, busco oportunidades para evoluir profissionalmente na área
-            e participar de soluções reais para aplicar meus conhecimentos.
+            <p data-i18n="about.text">
+                Olá! Me chamo Anna Clara, sou estudante do 4° período de Ciência da Computação na UNINOVE.<br>
+                <br>
+                Meu objetivo é conquistar a minha primeira oportunidade na área de tecnologia, onde eu possa continuar aprendendo e contribuindo com o desenvolvimento de soluções que façam a diferença.
+                Gosto de transformar problemas em soluções reais através da programação e vejo cada projeto como uma oportunidade de aprender algo novo.<br>
+                <br>
+                Atualmente estudo e desenvolvo projetos buscando sempre evoluir minhas habilidades técnicas e criar aplicações funcionais, intuitivas e bem estruturadas.
+                Acredito que a prática é a melhor forma de aprender, por isso estou constantemente iniciando novos projetos e explorando novas tecnologias para melhorá-los.<br>
+                <br>
+                Neste portfólio você encontrará alguns dos projetos que desenvolvi ao longo da minha jornada. Cada um deles representa um desafio superado, um novo conhecimento adquirido e um passo importante na minha evolução como desenvolvedora.
+                
+                Fique à vontade para explorá-los e conhecer um pouco mais do meu trabalho.
             </p>
         </div>
 
@@ -87,7 +98,7 @@
 
     <section id="skills" class="section skills">
 
-        <h2>Skills</h2>
+        <h2 data-i18n="skills.title">Habilidades</h2>
 
         <div class="cards">
 
@@ -95,8 +106,15 @@
             <div class="card">CSS</div>
             <div class="card">JavaScript</div>
             <div class="card">Python</div>
+            <div class="card">C</div>
             <div class="card">Flask</div>
+            <div class="card">Tkinter</div>
             <div class="card">MySQL</div>
+            <div class="card">POO</div>
+            <div class="card">Git</div>
+            <div class="card">GitHub</div>
+            <div class="card" data-i18n="skills.ingles">Inglês</div>
+            <div class="card" data-i18n="skills.espanhol">Espanhol</div>
 
         </div>
 
@@ -104,26 +122,45 @@
 
     <section id="projects" class="section projects">
 
-        <h2>Projects</h2>
+        <h2 data-i18n="projects.title">Projetos</h2>
 
-        <div class="glass-card">
+        <div class="glass-card2">
 
-            <h3>Inventory System</h3>
+            <h3 data-i18n="projects.subtitle">Leitor de Textos</h3>
 
-            <p>
-                Sistema CRUD desenvolvido com Python e MySQL. <br>
-                Permitindo cadastro, edição, exclusão e consulta de produtos.
+            <p data-i18n="projects.text"> 
+                Sistema OCR desenvolvido com Python e Pillow.<br>
+                Permitindo upload de Imagens e PDFs para leitura de textos.
             </p>
+            <br>
+            <a class="projeto1" href="https://github.com/Annaxxt" target="_blank">
+                <i class="fa-solid fa-code"></i>
+            </a>
 
         </div>
 
-        <div class="glass-card">
+        <div class="glass-card2">
 
-            <h3>Portfolio Website</h3>
+            <h3 data-i18n="projects2.subtitle">Portfolio site</h3>
 
-            <p>
-                Site pessoal desenvolvido com HTML e CSS e JavaScript. <br>
+            <p data-i18n="projects2.text"> 
+                Site pessoal desenvolvido com HTML e CSS e JavaScript.<br>
                 Com design moderno inspirado em tecnologia e gostos pessoais.
+            </p>
+            <br>
+            <a class="projeto1" href="https://github.com/Annaxxt" target="_blank">
+                <i class="fa-solid fa-code"></i>
+            </a>
+
+        </div>
+
+        <div class="glass-card2">
+
+            <h3 data-i18n="projects3.subtitle">Sistema de Inventório</h3>
+
+            <p data-i18n="projects3.text">
+                Sistema CRUD desenvolvido com Python e MySQL. <br>
+                Permitindo cadastro, edição, exclusão e consulta de produtos.
             </p>
 
         </div>
@@ -132,13 +169,13 @@
 
     <section id="contact" class="section contact">
 
-        <h2>Contacts</h2> 
+        <h2 data-i18n="contact.title">Contatos</h2> 
 
         <div class="glass-card">
 
-            <p>Email - suporteannah@gmail.com</p>
-            <p>LinkedIn - linkedin.com/in/annaxxt</p>
-            <p>GitHub - github.com/Annaxxt</p>
+            <p data-i18n="contact.text">Email - <a class="contato" href="mailto:annaclaramo01@gmail.com" target="_blank">annaclaramo01@gmail.com</a></p>
+            <p data-i18n="contact.text1">LinkedIn - <a class="contato" href="https://www.linkedin.com/in/annaxxt/" target="_blank">https://www.linkedin.com/in/annaxxt/</a></p>
+            <p data-i18n="contact.text2">GitHub - <a class="contato" href="https://github.com/Annaxxt" target="_blank">https://github.com/Annaxxt</a></p>
 
         </div>
 

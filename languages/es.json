@@ -37,7 +37,8 @@
 
     "projects3": {
         "subtitle": "Sistema de Inventario",
-        "text": "Sistema CRUD desarrollado con Python y MySQL.<br>Permite crear, editar, eliminar y administrar productos."
+        "text": "Sistema CRUD desarrollado con Python y MySQL.<br>Permite crear, editar, eliminar y administrar productos.",
+        "small": "En mantenimiento..."
     },
 
     "contact": {

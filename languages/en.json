@@ -37,7 +37,8 @@
 
     "projects3": {
         "subtitle": "Inventory System",
-        "text": "CRUD system developed with Python and MySQL.<br> Allows users to create, edit, delete, and manage products."
+        "text": "CRUD system developed with Python and MySQL.<br> Allows users to create, edit, delete, and manage products.",
+        "small": "Under maintenance..."
     },
 
     "contact": {

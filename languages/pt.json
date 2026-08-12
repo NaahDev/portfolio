@@ -37,7 +37,8 @@
 
     "projects3": {
         "subtitle": "Sistema de Inventório",
-        "text": "Sistema CRUD desenvolvido com pythpo.<br> Allows users to create, edit, delete, and manage products."
+        "text": "Sistema CRUD desenvolvido com pythpo.<br> Allows users to create, edit, delete, and manage products.",
+        "small": "Em manutenção..."
     },
 
     "contact": {

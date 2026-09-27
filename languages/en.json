@@ -4,6 +4,7 @@
         "about": "About Me",
         "skills": "Skills",
         "projects": "Projects",
+        "certificates": "Certificates",
         "contact": "Contact"
     },
 
@@ -20,8 +21,20 @@
 
     "skills": {
         "title": "Skills",
+        "security": "Security",
         "ingles": "English",
         "espanhol": "Spanish"
+    },
+
+    "certificates": {
+        "title": "Certificates",
+        "text": "Safety & Security (DL-00-D02)",
+        "text1": "Digital Safety and Security Awareness",
+        "text2": "CISCO and OpenEDG",
+        "text3": "Cybersecurity and CyBR (Cybersecurity Principles)",
+        "text4": "Website with HTML, CSS and JavaScript",
+        "text5": "Introduction to Object-Oriented Programming (OOP)",
+        "text6": "Currently studying..."
     },
 
     "projects": {

@@ -4,6 +4,7 @@
         "about": "Sobre mí",
         "skills": "Habilidades",
         "projects": "Proyectos",
+        "certificates": "Certificaciones",
         "contact": "Contacto"
     },
 
@@ -20,8 +21,20 @@
 
     "skills": {
         "title": "Habilidades",
+        "security": "Seguridad",
         "ingles": "Inglés",
         "espanhol": "Español"
+    },
+ 
+    "certificates": {
+        "title": "Certificaciones",
+        "text": "Seguridad y protección (DL-00-D02)",
+        "text1": "Concienciación sobre seguridad y protección digitals",
+        "text2": "CISCO y OpenEDG",
+        "text3": "Ciberseguridad y CyBR (Principios de ciberseguridad)",
+        "text4": "Sitio web con HTML, CSS y JavaScript",
+        "text5": "Introducción a la Programación Orientada a Objetos (POO)",
+        "text6": "Actualmente estudiando..."
     },
 
     "projects": {

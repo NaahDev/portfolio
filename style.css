@@ -200,6 +200,12 @@ nav ul li a:hover{
     padding: 180px;  
 } 
 
+#cert {
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
 h2 {
     font-size: 50px;
 }
@@ -254,6 +260,18 @@ p {
 
 .card.active {
     animation: pulse 1.2s ease;
+}
+
+.card3{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    min-height: 100px;
+    padding: 2rem;
+    border-radius: 20px;
+    background:rgba(41, 4, 58, 0.466);
+    backdrop-filter: blur(20px);
 }
 
 @keyframes pulse {

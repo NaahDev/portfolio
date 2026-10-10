@@ -403,4 +403,11 @@ p {
     .glass-card2 h3 {
     font-size: 1.3rem;
     }
+
+    .card3{
+        width: 100%;
+        max-width: 900px;
+        justify-content: center;
+    }
+
 }

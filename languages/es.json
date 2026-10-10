@@ -16,14 +16,16 @@
 
     "about": {
         "title": "Sobre mí",
-        "text": "¡Hola! Me llamo Anna Clara y soy estudiante de cuarto semestre de Ciencias de la Computación en UNINOVE.<br><br>Mi objetivo es conseguir mi primera oportunidad en el área de tecnología, donde pueda seguir aprendiendo y contribuir al desarrollo de soluciones significativas. Me gusta transformar problemas en soluciones reales a través de la programación y veo cada proyecto como una oportunidad para aprender algo nuevo.<br><br> Actualmente estudio y desarrollo proyectos para mejorar continuamente mis habilidades técnicas y crear aplicaciones funcionales, intuitivas y bien estructuradas. Creo que la práctica es la mejor forma de aprender, por eso estoy constantemente iniciando nuevos proyectos y explorando nuevas tecnologías para mejorarlos.<br><br> En este portafolio encontrarás algunos de los proyectos que he desarrollado a lo largo de mi trayectoria. Cada uno representa un desafío superado, nuevos conocimientos adquiridos y un paso importante en mi crecimiento como desarrolladora.<br>Siéntete libre de explorarlos y conocer un poco más sobre mi trabajo."
+        "text": "¡Hola! Me llamo Anna Clara y soy estudiante de Ciencias de la Computación en la UNINOVE (2025-2029).<br><br>Mi objetivo es seguir desarrollándome cada vez más en el área de tecnología.Tengo especial interés en el Desarrollo de Software, la Inteligencia Artificial y la Ciberseguridad, donde busco explorar nuevas tecnologías y mejorar mis habilidades.<br><br> Me gusta transformar problemas en soluciones reales a través de la programación y considero cada proyecto una oportunidad para aprender algo nuevo. Actualmente, desarrollo proyectos buscando mejorar constantemente mis habilidades técnicas y crear aplicaciones funcionales, intuitivas y bien estructuradas.<br><br>En este portafolio encontrarás algunos de los proyectos que he desarrollado a lo largo de mi trayectoria. Cada uno representa un desafío superado, un nuevo conocimiento adquirido y un paso importante en mi evolución como desarrolladora.<br>¡No dudes en explorarlos y conocer un poco más sobre mi trabajo!"
     },
-
+    
     "skills": {
         "title": "Habilidades",
         "security": "Seguridad",
         "ingles": "Inglés",
-        "espanhol": "Español"
+        "espanhol": "Español",
+        "italiano": "Italiano",
+        "alemao": "Alemán"
     },
  
     "certificates": {
@@ -51,6 +53,12 @@
     "projects3": {
         "subtitle": "Sistema de Inventario",
         "text": "Sistema CRUD desarrollado con Python y MySQL.<br>Permite crear, editar, eliminar y administrar productos.",
+        "small": "En mantenimiento..."
+    },
+
+    "projects4": {
+        "subtitle": "FlahRevision",
+        "text": "Plataforma de estudio con tarjetas de memoria (flashcards) interactivas para repasar contenidos de tecnología e idiomas. Desarrollada en Python y con base de datos MySQL, además del uso de APIs.",
         "small": "En mantenimiento..."
     },
 

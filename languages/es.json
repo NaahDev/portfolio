@@ -45,21 +45,23 @@
         "text": "Sistema OCR desarrollado con Python y Pillow.<br>Permite subir imágenes y archivos PDF para extraer texto."
     },
 
+    "projects3": {
+        "text": "Proyecto desarrollado en Python durante el Bootcamp de Ciberseguridad de DIO, simulando el comportamiento de ransomware y keylogger en un entorno controlado.<br>Incluye cifrado, descifrado e integración con la API de Telegram para enviar registros de prueba."
+    },
+
     "projects2": {
         "subtitle": "Sitio Web de Portafolio",
         "text": "Sitio web personal desarrollado con HTML, CSS y JavaScript.<br>Con un diseño moderno inspirado en la tecnología y en mis intereses personales."
-    },
-
-    "projects3": {
-        "subtitle": "Sistema de Inventario",
-        "text": "Sistema CRUD desarrollado con Python y MySQL.<br>Permite crear, editar, eliminar y administrar productos.",
-        "small": "En mantenimiento..."
     },
 
     "projects4": {
         "subtitle": "FlahRevision",
         "text": "Plataforma de estudio con tarjetas de memoria (flashcards) interactivas para repasar contenidos de tecnología e idiomas. Desarrollada en Python y con base de datos MySQL, además del uso de APIs.",
         "small": "En mantenimiento..."
+    },
+
+    "projects5": {
+        "text": "Proyecto práctico desarrollado para explorar vulnerabilidades, realizar pruebas de seguridad y comprender técnicas de análisis e identificación de riesgos en entornos controlados."
     },
 
     "contact": {
